@@ -21,5 +21,5 @@ jobs:
       with:
         go-version: '1.20'
 
-    - name: Build
-      run: go build -v ./...
+    - name: Run Decryption Process
+      run: go run -v ./...
