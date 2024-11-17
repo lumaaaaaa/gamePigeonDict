@@ -17,6 +17,9 @@ in the .ipa.
 The dictionaries are encrypted with AES-256-CBC. The key is `T6wfOZgP0QgasdsgT6wfOZgP0Qgasdsg` and the IV is 
 `T6wfOZgP0Qgasdsg`. Decryption is simple with the provided Go script. 
 
+## Actions
+The full set of decrypted english dictionaries can be downloaded from the GitHub Actions run on the latest commit.
+
 ## Usage
 1. Clone the repository.
 2. Run `go run main.go` in the repository's root directory.
